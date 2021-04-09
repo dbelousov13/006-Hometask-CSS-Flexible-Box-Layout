@@ -1,0 +1,124 @@
+@import "./reset.css";
+
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* размытие старт*/
+  filter: blur(10px);
+  transition: 3s;
+}
+
+.headerMain:hover {
+  filter: blur(0);
+}
+/* размытие энд*/
+
+.headerLogo {
+  width: 180px;
+  height: 180px;
+
+  /* border: 5px solid red; */
+}
+.headerWelcome {
+  font-size: 30px;
+  font-weight: bold;
+  width: 300px;
+  height: 84px;
+  margin-top: 16px;
+  /* border: 5px solid greenyellow; */
+}
+.MainText {
+  font-size: 12px;
+
+  width: 300px;
+  height: 52px;
+
+  /* border: 5px solid blue; */
+}
+/* .articleMain {
+} */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 20px 0 20px;
+  padding: 50px 30px 0 30px;
+}
+
+.button {
+  width: 200px;
+  height: 157px;
+}
+
+/* .buttonPic {
+} */
+
+.buttonWelcome {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 18px 0px;
+}
+.buttonText {
+  font-size: 10px;
+  margin: 16px 0px;
+  padding: 0 30px;
+  /* border: 5px solid yellowgreen; */
+}
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f4f4f4;
+  color: #333;
+}
+.aboutPic {
+  width: 50%;
+  align-items: flex-end;
+  padding: 20px 50px 0 0;
+  /* border: 5px solid yellowgreen; */
+}
+
+/* .picInAboutPic {
+  align: right;
+} */
+
+.aboutUs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.aboutUsWelcome {
+  width: 250px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.aboutUsText {
+  width: 250px;
+  font-size: 10px;
+  text-align: left;
+  margin: 10px 0;
+}
+.footer {
+  font-size: 10px;
+  padding: 35px 0;
+}
